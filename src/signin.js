@@ -3,7 +3,7 @@ import { auth, provider } from "./config";
 import { signInWithPopup } from "firebase/auth";
 import Home from "./home";
 import App from "./App";
-import "./App.css";
+import "./index.css";
 function SignIn() {
   const [value, setValue] = useState("");
   const [username, setUsername] = useState("");
